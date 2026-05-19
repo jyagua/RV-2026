@@ -7,9 +7,15 @@
   </head>
   <body style="margin: 0px; overflow: hidden">
     <a-scene vr-mode-ui="enabled: false" embedded ar.js="debugUiEnabled: false">
+        <a-asset>
+            <a-asset-item id="modelo" src="star.gltf"></a-asset>
+        </a-asset>
       <a-marker preset="hiro">
-
-        <a-model src="star.gltf" position="0 0 1" rotation="-90 0 0" width="1" height="1"></a-model>
+        <a-entity id="modelo3d"
+            position="0 0 1"
+            rotation="0 0 0"
+            scale="1 1 1"
+            gift-model="#modelo"></a-entity>
 
       </a-marker>
       <a-entity camera></a-entity>
