@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Terceira atividade de RV usando AR.js e o A-Frame. Marcador Hiro e um modelo 3d</title>
+      <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+      <!-- we import arjs version without NFT but with marker + location based support -->
+      <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body style="margin: 0px; overflow: hidden">
+    <a-scene vr-mode-ui="enabled: false" embedded ar.js="debugUiEnabled: false">
+      <a-marker preset="hiro">
+
+        <a-model src="star.gltf" position="0 0 1" rotation="-90 0 0" width="1" height="1"></a-model>
+
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
