@@ -6,3 +6,5 @@ Repositório para a cadeira de Realidade Virtual 2026
 [Terceira atividade](https://jyagua.github.io/RV-2026/three/) 
 [Quarta atividade](https://jyagua.github.io/RV-2026/four/) 
 [Quinta atividade](https://jyagua.github.io/RV-2026/five/) 
+[Sexta atividade](https://jyagua.github.io/RV-2026/six/) 
+
